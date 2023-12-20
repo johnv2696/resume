@@ -1,0 +1,153 @@
+/* For HTML fixed color background and font family */
+:root{
+	--main-color:#db5326;
+	--secondary-color:#22222d;
+	--gray:#ebebeb;
+	--darkgray:#c2c2c2;
+	--white:#fff;
+	--lightblack:#4e4e4e;
+	--heading-font:'Oswald', sans-serif;
+	--normal-font:system-ui;
+}
+/* Body style */
+body{
+	background: var(--secondary-color);
+	font-family: var(--normal-font);
+}
+/* For main style  */
+main{
+	width: 100%;
+	max-width: 800px;
+	margin: 0 auto;
+	height: 100%;
+	background: var(--white);
+	box-shadow: 5px 21px 19px 4px #0c0c0c57;
+}
+.clearfix{
+	clear: both;
+}
+	/* For content class address  */
+.content{
+	padding: 20px;
+}
+	/* For header 3 */
+h3{
+	margin: 0px; 
+	color: var(--main-color); 
+	font-weight: 500;
+}
+	/*For content paragraph  */
+.content p{
+	margin: 0px; 
+	font-size: 14px; 
+	margin-top: 5px;
+}
+	/* Main class left side */
+.left-side{
+	margin-left: 50px; 
+	width: 260px; 
+	float: left;
+	background: var(--gray); 
+	height: 100%;
+}
+	/* main class rightside */
+.right-side{
+	width: 490px; 
+	float: left;
+}
+	/* Profile style */
+.profile-img{
+	border-top: 20px solid var(--main-color);
+	border-bottom: 15px solid var(--main-color);
+}
+	/* Header 2 */
+h2{
+	font-family: var(--heading-font); 
+	margin-top: 10px; 
+	letter-spacing: 3px; 
+	font-weight: 200;}
+	/* Header 4 */
+h4{
+	margin: 0px; 
+	color: var(--lightblack); 
+	margin-top: 10px;
+}
+	/* For Hobbies list margin */
+ul{
+	margin-left: -40px; 
+	margin-bottom: 40px;
+}
+	/* Hobbies list */
+ul li{
+	list-style: none; 
+	float: left; 
+	position: relative;
+}
+ul li img{
+	width: 40px; 
+	padding-right: 15px;
+}
+ul li span{
+	position: absolute; 
+	bottom: -12px; 
+	left: 5px; 
+	font-size: 11px;
+}
+.rightside-content{
+	padding: 50px;
+}
+	/* Header 1 */
+h1{
+	font-size: 50px; 
+	font-family: var(--normal-font); 
+	font-weight: normal;
+	letter-spacing: 2px; 
+	position: relative; 
+	margin-top: 10px;
+}
+	/* Header 1 after the other style */
+h1::after{
+	content: "";
+	height: 2px;
+	width: 100px;
+	position: absolute;
+	background: var(--main-color);
+	bottom: -10px;
+	left: 0;
+}
+	/* Main paragraph */
+.para{
+	letter-spacing: 3px;
+	font-family: var(--normal-font);
+	font-size: 17px;
+	margin-top: -10px;
+}
+	/* paragraph 1 */
+.para1{
+	font-size: 13px;
+	letter-spacing: 1px;
+}
+	/* For the sub heading */
+.sub-heading{
+	font-weight: 400;
+	letter-spacing: 1px;
+	font-family: system-ui;
+}
+	/* Paragraph 2 font size and weight */
+.para2{
+	font-size: 13px; 
+	font-weight: 500;
+}
+	/* paragraph 2 span */
+.para2 span{
+	background: var(--main-color);
+	padding: 3px 10px;
+	border-radius: 6px;
+	color: white;
+	margin-right: 5px;
+	font-size: 12px;
+}
+	/* For Expertise column */
+.ex{margin-left: -40px; margin-bottom: 40px;}
+.ex li{list-style-type: none; float: left; position: relative;}
+.ex li img{width: 75px; padding-right: 20px;}
